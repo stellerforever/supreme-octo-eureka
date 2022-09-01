@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    align-items: flex-start;
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow: auto;
+    background-color:rgb(216, 190, 172);
+    /* or but lines weird rgb(191, 157, 134) */
+   }
+fieldset{
+   white-space: normal;
+    box-sizing: border-box;
+    display: inline-block;  
+    object-position: top;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+form{
+    display: inline;
+}

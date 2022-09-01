@@ -1,0 +1,17 @@
+body{
+    background: thistle url("images/mr.worldwide.jpeg") no-repeat center fixed;
+    background-size: 300px;
+    font-family: monospace;
+}
+p{
+    color:crimson;
+    background-color:blanchedalmond;
+    padding: 50px;
+}
+.pizza {
+   color: orange;
+   background: grey;
+   font-size: 30px;
+   font-family: sans-serif;
+   margin: 30px;
+}
