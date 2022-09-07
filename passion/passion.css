@@ -6,6 +6,8 @@ body{
     overflow: auto;
     background-color:rgb(216, 190, 172);
     /* or but lines weird rgb(191, 157, 134) */
+    margin-right: 100px;
+    padding-right: 100px;
    }
 fieldset{
    white-space: normal;
