@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: slateblue;
+}
+.content {
+    background-color: rgb(28, 19, 204);
+    color: whitesmoke;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border: 10px solid rgb(241, 146, 195);
+    margin: 50px auto;
+    font-family: 'Combo', cursive;
+}
+.border {
+    background-color: rgb(28, 19, 204);
+    color: whitesmoke;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border: 10px solid rgb(241, 146, 195);
+    margin: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Ms Madi', cursive;
+}
