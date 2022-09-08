@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    align-items:  center;
+    background-color:rgb(182, 206, 255);
+    overflow-x: scroll;
+    overflow: auto;
+    margin-right: 100px;
+    padding-right: 100px;
+}
+details > summary{
+    cursor: pointer;
+}
+form{
+    display: inline;
+}
+fieldset{
+    white-space: normal;
+     box-sizing: border-box;
+     display: inline-block;  
+     margin: 50px;
+     object-position: top;
+ }
+ img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ .pup{
+    display: flex;
+    align-items: flex-start;
+    position:absolute; 
+    TOP:1350px; 
+    LEFT:1980px; 
+ }
+.pup2{
+    position: absolute;
+    top: 450px;
+    left: 1600px;
+}
+.pup3{
+    position: absolute;
+    top: 500px;
+    left: 145px;
+}
+.pup4{
+    position: absolute;
+    top: 1500px;
+    left: 475px;
+}
