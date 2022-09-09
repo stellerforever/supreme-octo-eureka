@@ -3,5 +3,83 @@
 }
 
 body{
-    margin: 0px;
+    margin: 20px;
+}
+
+.box{
+    background-color: aliceblue;
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    margin-top: 10px;
+}
+
+.relative{
+    position: relative;
+    background-color: lightgoldenrodyellow;
+    bottom: 100px;
+    left: 100px; 
+}
+
+.fixed{
+    position: fixed;
+    background-color: lightpink;
+    bottom: 20px;
+    right: 20px;
+}
+
+.absolute{
+    position: absolute;
+    background: lightcyan;
+    top: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+.sticky{
+    position: sticky;
+    background-color: lightseagreen;
+    top: 0px;
+}
+
+.smiley{
+    position: fixed;
+    background-color: rgb(220, 185, 253);
+    border: 3px solid rgb(0, 255, 55);
+    width: 400px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    filter: blur(10px);
+}
+.eye{
+    position: absolute;
+    background:rgb(0, 255, 55);
+    border: 1px solid purple;
+    width: 40px;
+    height: 40px;
+    top: 50px;
+    border-radius: 50%;
+}
+
+.left{
+    left: 80px;
+}
+
+.right{
+    right: 80px;
+}
+
+.mouth{
+    background:rgb(0, 255, 55);
+    border: 1px solid purple;
+    width:50%;
+    height:30px;
+    left: 25%;
+    right: 0;
+    bottom: 50px;
+    position: absolute;
 }
