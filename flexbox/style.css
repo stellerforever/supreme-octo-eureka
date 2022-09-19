@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    background-color:rgb(222, 183, 222);
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-flow: row wrap; */ 
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* flex-direction: column; */
+    gap: 20px;
+}
+
+.item{
+    background-color:rgb(189, 224, 255);
+    padding: 20px;
+    border: 1px solid rgb(255, 131, 85);
+    width: 200px;
+}

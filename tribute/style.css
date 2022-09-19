@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: black;
+}
+
+.frost1{
+    width: 500px;
+    position: absolute;
+    bottom: 350px;
+}
+
+.frost2{
+    width: 800px;
+    position: absolute;
+    left: 350px;
+    top: 400px;
+
+}
+
+.frost3{
+    width: 200px;
+    position: absolute;
+    bottom: 0px;
+    left: 1600px;
+}
+
+.frost4{
+    width: 400px;
+    position: absolute; 
+    top: 0px;
+    left: 1400px;
+}

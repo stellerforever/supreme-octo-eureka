@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: black;
+}
+
+a {
+    color: antiquewhite;
+    position: absolute;
+    top: 700px;
+    left: 150px;
+}
