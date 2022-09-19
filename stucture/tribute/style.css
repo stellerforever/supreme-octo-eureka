@@ -34,3 +34,7 @@ body{
     top: 0px;
     left: 1400px;
 }
+
+div{
+    cursor: grab;
+}
