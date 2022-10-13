@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(251, 210, 227);
+}
+
+.begin{
+   text-align: center;
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.closer{
+    text-align: center;
+    display: none;
+}
+
+.better{
+    text-align: center;
+    display: none;
+}
+
+ .butterflys{
+        display: none;
+    }
+
+.think{
+    display: none;
+}
+
+.have{
+    display: none;
+}
+
+.crush{
+    display: none;
+}
+
+a{
+    color: rgb(0, 0, 0);
+}
+
+
+@media screen and (max-width: 1500px){
+    body{
+        background-color: rgb(255, 155, 195);
+    }
+    .closer{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .begin{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    body{
+        background-color: rgb(254, 132, 181);
+    }
+    .better{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .closer{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    body{
+        background-color: rgb(255, 110, 168);
+    }
+    .butterflys{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .better{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px){
+    body{
+        background-color: rgb(252, 83, 150);
+    }
+    .think{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .butterflys{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px){
+    body{
+        background-color: rgb(255, 70, 144);
+    }
+    .have{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .think{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px){
+    body{
+        background-color: rgb(253, 63, 139);
+    }
+    .crush{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .have{
+        display: none;
+    }
+}

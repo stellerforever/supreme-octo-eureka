@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.start{
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ .small{
+    display: none;
+ }
+
+ .but{
+    display: none;
+ }
+
+ .it{
+    display: none;
+ }
+
+ .and{
+    display: none;
+ }
+
+ .grows{
+    display: none;
+ }
+
+ .stop{
+    display: none;
+ }
+
+ .okay{
+    display: none;
+ }
+
+ @media screen and (min-width: 650px){
+    body{
+        background-color: rgb(255, 231, 193);
+    }
+    .small{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .start{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 800px){
+    body{
+        background-color: rgb(254, 214, 151);
+    }
+    .but{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .small{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 950px){
+    body{
+        background-color: rgb(253, 202, 118);
+    }
+    .it{
+        width: 100vw center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .but{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1050px){
+    body{
+        background-color: rgb(251, 181, 68);
+    }
+    .and{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .it{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1350px){
+    body{
+        background-color: rgb(250, 163, 23);
+    }
+    .grows{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .and{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1450px){
+    body{
+        background-color: rgb(252, 155, 0);
+    }
+    .stop{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .grows{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1550px){
+    body{
+        background-color: rgb(255, 115, 22);
+    }
+    .okay{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .stop{
+        display: none;
+    }
+}
