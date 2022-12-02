@@ -9,6 +9,15 @@ body{
     overflow: hidden;
 }
 
+span {
+    pointer-events: none;
+    }
+    
+a{
+    color: black;
+    pointer-events: auto;
+}
+
 /* Proudly created with www.csswarp.com */
 
 .warp__placeholder{
