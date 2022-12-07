@@ -5,6 +5,10 @@
 body{
     margin: 0;
     background-color: black;
+    max-height: 100vh;
+    max-width: 100vw;
+    overflow: hidden;
+
 }
 
 .frost1{

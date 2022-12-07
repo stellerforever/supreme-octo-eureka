@@ -7,6 +7,7 @@ body{
     max-height: 100vh;
     max-width: 100vw;
     overflow: hidden;
+
 }
 
 span {
@@ -16,6 +17,27 @@ span {
 a{
     color: black;
     pointer-events: auto;
+}
+
+div {
+    pointer-events:none;
+  }
+
+.everything{
+    display: flex;
+  justify-content: center;
+  align-items: flex-start center;
+}
+
+img{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1300px;
 }
 
 /* Proudly created with www.csswarp.com */
